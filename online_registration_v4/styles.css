@@ -106,7 +106,7 @@
 
   input[id="code"]{
     width: 50%;
-  }
+  } 
 
   input[type="radio"],
   input[type="checkbox"] {
@@ -171,13 +171,43 @@
   
   @media screen and (min-width: 768px) {
 
-    .newsLetter {
+  
+     .newsLetter {
         margin-right:14%;
         margin-left:14%;
-    }
+    } 
 
+    .inline {
+      display: flex;
+      align-items: baseline; 
+      flex-basis: 25%; 
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="phoneNumber"],
+    input[type="adress"],
+    input[type="city"],
+    input[type="code"],
+    select {
+      background: rgba(255,255,255,0.1);
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      height: auto;
+      margin: 0;
+      outline: 0;
+      padding: 15px;
+      width: 100%;
+      background-color: #e8eeef;
+      color: #8a97a0;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset; 
+      margin-bottom: 30px;
+    }
+  
     input[id="code"]{
-      width: 25%;
+      flex-basis: 25%;
+      width: 100%;
+
     }
 
     textarea {
