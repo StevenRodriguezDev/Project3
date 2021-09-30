@@ -62,8 +62,8 @@
   fieldset {
     margin-bottom: 30px;
     border: none;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
   }
 
   input[type="text"],
@@ -72,7 +72,6 @@
   input[type="adress"],
   input[type="city"],
   input[type="code"],
-  textarea,
   select {
     background: rgba(255,255,255,0.1);
     border: none;
@@ -106,7 +105,7 @@
   }
 
   input[id="code"]{
-    width: 20%;
+    width: 50%;
   }
 
   input[type="radio"],
@@ -118,6 +117,24 @@
     padding: 6px;
     height: 32px;
     border-radius: 4px;
+  }
+
+  
+
+  textarea {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 93%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset; 
+    margin-bottom: 30px;
   }
 
 
@@ -138,20 +155,54 @@
    label {
     display: block;
     margin-bottom: 10px;
+    
   } 
-  label.light {
+   label.light {
     font-weight: 300;
     display: inline;
+  } 
+
+  footer {
+    text-align: center;
   }
   
   
-  /*  
   
-  @media screen and (min-width: 1200px) {
+  
+  @media screen and (min-width: 768px) {
+
+    .newsLetter {
+        margin-right:14%;
+        margin-left:14%;
+    }
+
+    input[id="code"]{
+      width: 25%;
+    }
+
+    textarea {
+      background: rgba(255,255,255,0.1);
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      height: auto;
+      margin: 0;
+      outline: 0;
+      padding: 15px;
+      width: 96%;
+      background-color: #e8eeef;
+      color: #8a97a0;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset; 
+      margin-bottom: 30px;
+    }
+
+    
+
+    
   
     form {
-      max-width:1200px;
+      max-width:768px;
     }
   
   }
-   */
+  
