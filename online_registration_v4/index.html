@@ -1,17 +1,88 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Steven page </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0"/>
+        <title> Online Registration Form </title>
+        <link rel="stylesheet" href="styles.css">
  
     </head>
 
     <body>
+        <header> 
+           <h1> The Code Review </h1>
+        </header>
+        <div class="newsLetter">
+            <section>
+                <h2> Sign up for our news letter </h2>
+                <p> Get the latest news on how your code is doing right in your inbox</p>
+            </section>
 
+            <hr class="line1">
+            <hr class="line2">
+
+       <form action="index.html"> 
+            <!-- <h1> Sign Up </h1> -->
+            <fieldset>
+
+                <legend>Contact Information</legend>
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="user_name" placeholder="Required" >
+                <br>
+
+                <label for="mail">Email Address</label>
+                <input type="email" id="mail" name="user_email" placeholder="Required">
+                <br>
+
+                <label for="phoneNumber">Phone Number</label>
+                <input type="phoneNumber" id="phoneNumber" name="phoneNumber" placeholder="Required">
+                <br>
+
+                <label for="street">Street Address</label>
+                <input type="adress" id="adress" name="user_adress" placeholder="Required">
+                <br>
+
+                <label for="city">City</label>
+                <input type="city" id="city" name="user_city" placeholder="Required">
+                <br>
+
+                <label for="state" >Select State</label>
+                 <!-- <input type="state" id="state" name="user_state">  -->
+                <select id="state" name="user_state">
+                <option value="" >Choose State:</option>
+                </select>
+                
+                <br>
+
+                <label for="zip">Zip Code</label>
+                <input type="code" id="code" name="user_code"  placeholder="Required">
+
+            </fieldset>
+            
+            <hr class="line2">
+
+
+            <fieldset>
+
+                <legend>News Letter</legend>
+
+                <p>Select the newsletters you would like to recieve</p>
+
+                <input type="checkbox" id="htmlNews" value="news_htmlNews" name="user_news">
+                <label class="light" for="htmlNews"> HTML News</label><br>
+
+
+
+                <button type="submit">Sign Up</button> 
+            </fieldset> 
+
+        </form>
+
+        </div> 
 
     </body>
-    
-    
+
     <footer>
 
 
