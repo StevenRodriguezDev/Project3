@@ -1,9 +1,13 @@
  
   body {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: lightgray;
+    font-weight: 300;
     width: 100%;
     height: 100%;
     margin: 0px;
     color: #384047;
+    background-color:#83b4dc;
   }
 
   header {
@@ -146,7 +150,8 @@
   button {
     padding: 19px 39px 18px 39px;
     color: #FFF;
-    background-color:hsl(177deg 44% 52%);
+    /* background-color:hsl(177deg 44% 52%); */
+    background-color: #83b4dc;
     font-size: 18px;
     text-align: center;
     font-style: normal;
