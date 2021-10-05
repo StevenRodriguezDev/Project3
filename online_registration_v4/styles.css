@@ -72,10 +72,10 @@
 
   input[type="text"],
   input[type="email"],
-  input[type="phoneNumber"],
-  input[type="adress"],
-  input[type="city"],
-  input[type="code"],
+  input[type="number"],
+  input[type="text"],
+  input[type="search"],
+  input[type="url"],
   select {
     background: rgba(255,255,255,0.1);
     border: none;
@@ -95,10 +95,10 @@
 
   input[type="text"]:focus,
   input[type="email"]:focus,
-  input[type="phoneNumber"]:focus,
-  input[type="adress"]:focus,
-  input[type="city"]:focus,
-  input[type="code"]:focus,
+  input[type="number"]:focus,
+  input[type="text"]:focus,
+  input[type="search"]:focus,
+  input[type="url"]:focus,
   select:focus,
   textarea:focus {
     text-align: left;
@@ -113,7 +113,7 @@
     border: solid hsl(210deg 21% 22%)
   }
 
-  input[id="code"]{
+  input[id="url"]{
     width: 50%;
   } 
 
@@ -194,10 +194,10 @@
     }
     input[type="text"],
     input[type="email"],
-    input[type="phoneNumber"],
-    input[type="adress"],
-    input[type="city"],
-    input[type="code"],
+    input[type="number"],
+    input[type="text"],
+    input[type="search"],
+    input[type="url"],
     select {
       background: rgba(255,255,255,0.1);
       border: none;
@@ -215,7 +215,7 @@
       flex-basis: 75%;
     }
   
-    input[id="code"]{
+    input[id="url"]{
       flex-basis: 25%;
       width: 100%;
 
