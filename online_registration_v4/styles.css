@@ -72,7 +72,7 @@
 
   input[type="text"],
   input[type="email"],
-  input[type="number"],
+  input[type="tel"],
   input[type="text"],
   input[type="search"],
   input[type="url"],
@@ -95,7 +95,7 @@
 
   input[type="text"]:focus,
   input[type="email"]:focus,
-  input[type="number"]:focus,
+  input[type="tel"]:focus,
   input[type="text"]:focus,
   input[type="search"]:focus,
   input[type="url"]:focus,
@@ -194,7 +194,7 @@
     }
     input[type="text"],
     input[type="email"],
-    input[type="number"],
+    input[type="tel"],
     input[type="text"],
     input[type="search"],
     input[type="url"],
